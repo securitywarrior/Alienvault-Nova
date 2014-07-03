@@ -10,6 +10,12 @@ nano 20-nova.conf
 sudo cp 20-nova.conf  /etc/rsyslog.d/ 
 ````
 
+Run Quasar for the first time to set up the basic config file
+
+````
+quasar
+````
+
 In order for the various daemons to start automatically you also need to edit the file _/home/adhd/.config/nova/config/NOVAConfig.txt_. 
 Add the following lines to the end of the file. 
 
