@@ -23,7 +23,7 @@ Add the following lines to the end of the file.
 COMMAND_START_NOVAD sudo start novad
 COMMAND_STOP_NOVAD sudo stop novad
 COMMAND_START_HAYSTACK sudo start haystack
-COMMAND_STO_PAYSTACK sudo stop haystack
+COMMAND_STOP_HAYSTACK sudo stop haystack
 ```
 
 Although *not* required this will allow you to use scripts within Nova. The default permissions don't allow this to occur. 
